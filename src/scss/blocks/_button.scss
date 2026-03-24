@@ -1,0 +1,21 @@
+@use '../utils/utils' as *;
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+
+  &--primary {
+    background: $primary;
+    color: $white;
+  }
+
+  &--secondary {
+    border: 2px solid $primary;
+    color: $primary;
+  }
+}
+.btn:hover {
+  opacity: 0.8;
+  color:$dark;
+  background: $secondary;
+}

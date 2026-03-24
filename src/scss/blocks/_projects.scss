@@ -1,0 +1,16 @@
+@use '../utils/utils' as *;
+
+.projects {
+  padding: 40px;
+  text-align: center;
+
+  &__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @include responsive(tablet) {
+      flex-direction: row;
+    }
+  }
+}

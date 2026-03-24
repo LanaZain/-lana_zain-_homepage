@@ -1,0 +1,14 @@
+@use '../utils/utils' as *;
+.header {
+  background: $dark;
+  color: $white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  &__link {
+    color: $white;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+}
